@@ -36,4 +36,22 @@
 	left : '5dp',
 	textAlign : 'left',
 	
-}
+},
+
+'#checklistWindow': {
+	visible : false,
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	top : '90dp',
+	layout : 'vertical',
+	borderColor : 'transparent',
+},
+
+'#checklist':{
+	visible : false,
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	top : '90dp',
+	layout : 'vertical',
+	borderColor : 'transparent',
+},

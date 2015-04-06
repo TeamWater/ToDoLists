@@ -18,3 +18,5 @@ var typeCheckBox = Titanium.UI.createButton({
             e.source.checked = true;
         };
     });
+    
+$.checklist.open();
