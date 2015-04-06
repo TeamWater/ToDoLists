@@ -1,5 +1,9 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+	
+	<Collection src="checklist"/>
+	<Window id="mainWindow">
+		<TableView dataCollection="checklist" dataTransform="transform" dataFilter="filter">
+			<TableViewRow title="{title}" modelId="{id}" />
+		</TableView>
 	</Window>
 </Alloy>
